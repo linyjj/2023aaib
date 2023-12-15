@@ -1,0 +1,12 @@
+s={1,2,3,4}#第一種,用大括號
+print(s)
+s=set((1,3,5,7))#第二種,用set()裡面'放你一開始要加入的東西,可用括號tuple
+print(s)
+s=set((1,2,4,3))#第二種,用set()裡面'放你一開始要加入的東西,可用括號tuple
+print(s)
+s=set('Hello')
+print(s)
+s.add(100)
+print(s)
+s.remove('H')
+print(s)
